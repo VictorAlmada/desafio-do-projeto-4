@@ -6,4 +6,6 @@ public interface IConta {
 		public void depositar(double valor);
 
 		public void tranferir(double valor, Conta contaDestino);
+		
+		public void imprimir();
 }
